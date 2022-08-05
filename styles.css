@@ -1,20 +1,79 @@
-/* *{
+*{
+    box-sizing:border-box;
+    text-decoration: none;
     margin: 0px;
     padding:0px;
-} */
+    
+}
 
 .logo{
     width: 29px;
     height: 24px;
+}
+/* Styling to svg icons on sidebar */
+.r-jwli3a {
+    fill:  rgb(214, 217, 219);
+    width: 1.75rem;
+}
 
+.r-vlxjld {
+    fill:rgb(214, 217, 219); 
+    margin-right: 20px;   
+    width: 1.75rem;
+}
+
+.sidebar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    padding: 12px;
+    background: black;
+    
 }
 .nav-items span{
     display:flex;
     justify-content: flex-start;
-    height: 22px;
+    height: 1.75rem;
+    color: rgb(214, 217, 219);
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    border-radius: 9999px;
+    /*       */
+}
+
+.items{
+    padding: 12px;
 }
 
 .nav-items .item:hover{
     cursor: pointer;
-    background: #27343f00;
+    background: /*#27343f00;*/ rgb(60, 122, 245);
+}
+
+.tweet-button{
+    color: rgb(214, 217, 219);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    background:rgb(29, 155, 240);
+}
+.tweet-button:hover{
+    cursor: pointer;
+    background: /*#27343f00;*/ rgb(29, 155, 240);;
+    
+}
+
+.middle-bar{
+    background: red;
+    width: 400px;
+}
+.main{
+    display: flex;
+    background:#15202a00;
+    height: 100vh;
+    
 }
