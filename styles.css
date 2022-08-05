@@ -10,6 +10,11 @@
     width: 29px;
     height: 24px;
 }
+
+.logo:hover{
+    background:rgb(32, 35, 39);
+    cursor: pointer;
+}
 /* Styling to svg icons on sidebar */
 .r-jwli3a {
     fill:  rgb(214, 217, 219);
@@ -24,9 +29,10 @@
 
 .sidebar{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
-    width: 250px;
+    flex-basis: auto;
+    width: 30%;
     padding: 12px;
     background: black;
     
@@ -34,28 +40,28 @@
 .nav-items span{
     display:flex;
     justify-content: flex-start;
-    height: 1.75rem;
+    height: 50px;
     color: rgb(214, 217, 219);
     font-size: 20px;
     line-height: 35px;
     margin-bottom: 20px;
     border-radius: 9999px;
-    /*       */
 }
 
-.items{
+.nav-items{
     padding: 12px;
 }
 
 .nav-items .item:hover{
     cursor: pointer;
-    background: /*#27343f00;*/ rgb(60, 122, 245);
+    background:rgb(32, 35, 39);
 }
 
 .tweet-button{
     color: rgb(214, 217, 219);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
@@ -63,17 +69,20 @@
 }
 .tweet-button:hover{
     cursor: pointer;
-    background: /*#27343f00;*/ rgb(29, 155, 240);;
+    background:rgb(29, 155, 240);
     
 }
 
 .middle-bar{
     background: red;
-    width: 400px;
+    width: 32%;
+}
+
+.left-bar{
+    width: 38%;
 }
 .main{
     display: flex;
-    background:#15202a00;
     height: 100vh;
     
 }
