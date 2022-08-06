@@ -3,6 +3,7 @@
     text-decoration: none;
     margin: 0px;
     padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -66,6 +67,10 @@
 .item{
     text-align: center;
     padding:0px 12px 0px 12px;
+}
+
+.home{
+    font-weight: 700;
 }
 
 .nav-items .item:hover{
@@ -181,7 +186,7 @@
     color: rgb(29, 155, 240);
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     margin: 4px 20px 15px 50px;
     padding-bottom: 10px;
