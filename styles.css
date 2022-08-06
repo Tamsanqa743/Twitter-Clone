@@ -20,9 +20,7 @@
 /* Styling to svg icons on sidebar */
 .r-jwli3a {
     fill:  rgb(214, 217, 219);
-    width: 1.765rem;
-    /* padding: 12px; */
-    /* margin-left: 5px; */
+    width: 1.65rem;
 }
 
 .r-vlxjld {
@@ -45,23 +43,25 @@
     width: 30%;
     padding: 12px;
     background: black;
-    
+    overflow-y: none;
+    /* justify-content: flex-start; */
 }
 .nav-items span{
     display:flex;
-    height: 50px;
+    height: 40px;
     color: rgb(214, 217, 219);
     font-size: 20px;
     line-height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     border-radius: 9999px;
     align-items: center;
+    margin-right: 40px;
 }
 
 .nav-items{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .item{
     text-align: center;
@@ -85,8 +85,9 @@
     padding: 0px 32px 0px 32px;
     border-radius: 999px;
     height: 50px;
-    width: 160px;
+    width: 190px;
     border: 1px;
+    margin-right: 20px;
 }
 .tweet-button:hover{
     cursor: pointer;
@@ -96,26 +97,143 @@
 
 /* Styling account icon */
 .material-icons{
-    color: rgb(214, 217, 219);
+    color: rgb(177, 185, 190);
+    margin-right: 5px;
+    font-size: 45px;
 }
 
 .profile-info{
     display: flex;
     color: rgb(214, 217, 219);
     align-items: center;
-    justify-content: left;
+    justify-content: center;
+    right: 70.5%;
+    bottom: 0px;
+    position: absolute;
+    margin-bottom: 12px;
+    border-radius: 999px;
+    padding: 4px 12px 4px 12px;
+}
+
+.profile-info:hover{
+    cursor: pointer;
+    background:rgb(32, 35, 39);
+
+}
+
+.more-dots{
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 .middle-bar{
-    background: red;
+    background: black;
     width: 32%;
+    border-left: 0.5px solid  rgb(85, 94, 100);
+    border-right:0.5px solid  rgb(85, 94, 100);;
+    /* overflow-y: scroll; */
+}
+
+.home-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-item{
+    color: rgb(214, 217, 219); 
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home-item:hover{
+    cursor: pointer;
+    /* background: rgb(85, 94, 100);
+    border-radius: 999px; */
+}
+
+.stars-icon{
+    fill:rgb(214, 217, 219);
+    width: 1.5em;
+    padding: 0px 6px 0px 2px;
+}
+
+.stars-icon:hover{
+    background: rgb(48, 50, 51);
+    border-radius: 40%; 
+}
+.post-tweet{
+    display: flex;
+    margin-left: 10px;
+}
+
+.post-tweet >input{
+    color: rgb(214, 217, 219);
+    background: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    outline: none;
+}
+
+.permisions{
+    color: rgb(29, 155, 240);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 4px 20px 15px 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(85, 94, 100);
+}
+
+.permisions-icon{
+    color: rgb(29, 155, 240);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.controls-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.control-icons{
+    display: flex;
+    fill: rgb(29, 155, 240);
+    padding-left: 12px;
+    width: 13rem;
+
+}
+
+.tweet-btn{
+    background: rgb(29, 155, 240);
+    margin-right: 15px;
+    font-size: 15px;
+    color: rgb(214, 217, 219);
+    border-radius: 999px;
+    width: 4rem;
+    line-height: 20px;
+    padding: 6px;
+    text-align: center;
+}
+
+.border{
+    border-bottom: 1px solid rgb(85, 94, 100);
 }
 
 .left-bar{
     width: 38%;
+    background: black;
 }
 .main{
     display: flex;
     height: 100vh;
+    overflow-y: scroll;
     
 }
