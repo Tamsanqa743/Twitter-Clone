@@ -234,6 +234,26 @@
     border-bottom: 1px solid rgb(85, 94, 100);
 }
 
+.tweet-info{
+    display: flex;
+    align-items: center;
+    /* justify-content:; */
+}
+
+.tweet-info-dots{
+    margin-left: 300px;
+}
+.tweet-descript{
+    width: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.verified-user{
+    color: rgb(214, 217, 219); 
+}
+
+
 .left-bar{
     width: 38%;
     background: black;
