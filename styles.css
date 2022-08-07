@@ -21,19 +21,19 @@
 /* Styling to svg icons on sidebar */
 .r-jwli3a {
     fill:  rgb(214, 217, 219);
-    width: 1.65rem;
+    width: 2.5rem;
 }
 
 .r-vlxjld {
     fill:rgb(214, 217, 219); 
     margin-right: 20px;   
-    width: 1.65rem;
+    width: 2.5rem;
 }
 
 .r-1nao3i{
     fill:rgb(214, 217, 219); 
     margin-right: 20px;   
-    width: 1.65rem;
+    width: 2.5rem;
 }
 
 .sidebar{
@@ -50,7 +50,8 @@
 .nav-items span{
     display:flex;
     height: 40px;
-    color: rgb(214, 217, 219);
+    /* color: rgb(214, 217, 219); */
+    color: white;
     font-size: 20px;
     line-height: 35px;
     margin-bottom: 18px;
@@ -212,7 +213,7 @@
     display: flex;
     fill: rgb(29, 155, 240);
     padding-left: 12px;
-    width: 13rem;
+    width: 20rem;
 
 }
 
@@ -220,9 +221,10 @@
     background: rgb(29, 155, 240);
     margin-right: 15px;
     font-size: 15px;
+    font-weight: 700;
     color: rgb(214, 217, 219);
     border-radius: 999px;
-    width: 4rem;
+    width: 8rem;
     line-height: 20px;
     padding: 6px;
     text-align: center;
