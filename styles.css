@@ -27,10 +27,6 @@
     cursor: pointer;
     background:rgb(10, 36, 71);
     border-radius: 999px;
-    /* border-top-left-radius: 999px;
-    border-top-right-radius: 999px;
-    border-bottom-left-radius: 999px;
-    border-bottom-right-radius: 999px; */
     width: fit-content;
 
 }
@@ -60,7 +56,6 @@
     padding: 12px;
     background: black;
     overflow-y: none;
-    justify-content: flex-start;
 }
 .nav-items{
     display:flex;
@@ -95,10 +90,6 @@
     align-items: center;
     margin: 0px 0px 5px 25px;
 }
-
-/* .item:last-child{
-    margin-bottom: 8px;
-} */
 
 /* Styling svg icons in sidebar*/
 
@@ -142,6 +133,7 @@
     
 }
 
+
 /* Styling account icon */
 .material-icons{
     color: rgb(177, 185, 190);
@@ -149,37 +141,58 @@
     font-size: 45px;
 }
 
+.profile-info .acc-sidebar{
+    color: rgb(177, 185, 190);
+    margin-right: 5px;
+    font-size: 42px;
+    padding-top: 11px;
+}
+
 .profile-info{
     display: flex;
     color: rgb(214, 217, 219);
     align-items: center;
-    justify-content: center;
-    right: 70.5%;
-    bottom: 0px;
-    position: absolute;
-    margin-bottom: 12px;
+    text-align: center;
+    bottom: 0px; 
+    position: absolute; 
     border-radius: 999px;
-    padding: 4px 12px 4px 12px;
+    padding: 3px 15px 4px 10px;
+    margin: 0px 0px 5px 25px;
+    height: 50px;
+    
 }
 
 .profile-info:hover{
     cursor: pointer;
     background:rgb(32, 35, 39);
+    border-radius: 999px;
+    width: fit-content;
 
 }
 
-.more-dots{
+.profile-info .username{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-info .name{
+    color: white;
+}
+
+.option-dots{
     font-size: 20px;
     margin-left: 25px;
 }
+
+
+/* Midlebar Section*/
 
 .middle-bar{
     background: rgb(0, 0, 0);
     width: 42%;
     border-left: 0.5px solid  rgb(85, 94, 100);
     border-right:0.5px solid  rgb(85, 94, 100);
-    /* height: 100vh; */
-    /* overflow-y: scroll; */
 }
 
 .home-bar{
@@ -196,8 +209,6 @@
 
 .home-item:hover{
     cursor: pointer;
-    /* background: rgb(85, 94, 100);
-    border-radius: 999px; */
 }
 
 .stars-icon{
@@ -225,17 +236,6 @@
     outline: none;
 }
 
-/* .permisions{
-    color: rgb(29, 155, 240);
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    font-weight: 700;
-    margin: 4px 20px 15px 50px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(85, 94, 100);
-} */
-
 .permisions-icon{
     color: rgb(29, 155, 240);
     font-size: 15px;
@@ -259,6 +259,7 @@
 
 }
 
+/* styling middlebar tweet button*/
 .tweet-btn{
     background: rgb(29, 155, 240);
     margin-right: 15px;
@@ -323,6 +324,6 @@
 .main{
     display: flex;
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     
 }
