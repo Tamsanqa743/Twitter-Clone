@@ -73,17 +73,6 @@
     flex-direction: column;
 }
 
-/* .nav-items{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-} */
-
-/* .all-items{
-    height: 20vh;
-
-} */
 .item{
     display: flex;
     text-align: center;
@@ -99,10 +88,6 @@
     height: 40px;
     width: 2.5rem;
 }
-
-/* .home{
-    font-weight: 700;
-} */
 
 .nav-items .item:hover{
     cursor: pointer;
@@ -184,6 +169,13 @@
 .option-dots{
     font-size: 20px;
     margin-left: 25px;
+    padding: 5px;
+}
+
+.text-icon .option-dots:hover{
+    color: rgb(29, 155, 240);
+    background: rgb(72, 96, 112);
+    border-radius: 999px;
 }
 
 
@@ -321,6 +313,13 @@
     color: rgb(85, 94, 100);
 }
 
+.tweet-text{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
 .tweet-content{
     align-items: center;
     justify-content: center;
@@ -350,43 +349,176 @@
     width: 100px;
 }
 
-.tweet-bottom-bar svg{
+.tweet-bottom-bar .r-yyyyoo{
     fill: rgb(85, 94, 100);
+    width: 2rem;
 }
 
 
+
+
+.reply:hover{
+    fill:rgb(29, 155, 240);
+    color: rgb(29, 155, 240);
+    background: rgb(49, 76, 95);
+    border-radius: 999px;
+    cursor: pointer;
+    /* width: fit-content; */
+}
+
+.retweet:hover{
+    fill: rgb(11, 248, 169);
+    background: rgb(38, 47, 53);
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.tweet-bottom-bar  .like:hover{
+    fill: red;
+    color: red;
+    cursor: pointer;
+}
+
+.share:hover{
+    fill: rgb(29, 155, 240);
+    cursor: pointer;
+}
+
+.tweet-content:hover{
+    cursor: pointer;
+}
+
+.tweet-info:hover{
+    cursor: pointer;
+}
 /* styling blue dots */
 .r-4qtqp9{
     width: 1.7rem;
     margin: 0px 1.75px 0px 1.75px;
 }
 
-/* .tweet-descript p{
-    padding-top: 4px;
-    font-weight: 400;
-    color: rgb(250, 253, 255);
-} */
-
-/* .verified-user{
-    color: rgb(214, 217, 219); 
-    font-size: 16px;
-} */
-
 /*styling left bar*/
 
 .left-bar{
     width: 35%;
     background: black;
+    overflow-y: auto;
 }
 
-.search{
-    border:none;
+.navbar{
+    display: flex;
+    border-radius: 60px;
     background:rgb(32, 35, 39);
-    border-radius: 15px;
-    height: 30px;
     margin-left: 30px;
     margin-top: 5px;
+    width: 346px;
+    align-items: center;
 }
+
+.navbar input{
+    border:none;
+    background:rgb(32, 35, 39);
+    margin-left: 15px;
+    padding: 12px 0px 12px;
+    outline: none;
+}
+
+.navbar svg{
+    fill: rgb(85, 94, 100);
+    margin-left: 15px;
+}
+
+.trends-section{
+    margin-left: 30px;
+    background: rgb(32, 35, 39);
+    border-radius: 10px;
+    padding-top: 12px;
+    width: 346px;
+}
+
+.title{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+.trend-item .t-contents{
+    display: flex;
+    flex-direction: column;
+     padding: 10px;
+}
+.trend-item{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.trend-item:hover{
+    cursor: pointer;
+    background:rgb(38, 47, 53);
+}
+.trend-item .topic{
+    color:white;
+    font-weight: 700;
+}
+.trending-za, .tweet-no{
+    color: rgb(85, 94, 100);
+    font-weight: 400;
+}
+
+.left-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.left-bar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .who-to-follow{
+    background: rgb(32, 35, 39);
+    width: 346px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin: 0px 0px 5px 30px;
+    padding: 10px;
+  }
+
+  .sugges-item{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sugges-item img{
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 50px;
+  }
+
+  .sugges-item svg{
+    fill: rgb(177, 185, 190)
+  }
+
+  .follow-btn{
+    text-align: center;
+    background: white;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 990px;
+    width: 85px;
+  }
+
+  .follow-btn:hover{
+    cursor: pointer;
+  }
+  
 .main{
     display: flex;
     height: 100vh;
