@@ -1,0 +1,63 @@
+/* Targeting medium sized devices, i.e Tablets */
+@media (max-width:768px) and (min-width:480px){
+
+.left-bar{
+    display: none;
+}
+
+.item, .tweet-button{
+    display: none;
+}
+
+.item-mobile svg{
+    margin-right:15px;
+    height: 40px;
+    width: 2.5rem;
+}
+
+.item-mobile{
+    display: flex;
+    text-align: center;
+    padding:0px 12px 0px 12px;
+    align-items: center;
+    margin: 0px 0px 5px 25px;
+}
+
+
+.tweet-btn-mobile{
+    display: flex;
+    align-items: center;
+    background: rgb(29, 155, 240);
+    padding: 12px;
+    border-radius: 100%;
+    margin-top: 8px;
+}
+
+
+.middle-bar{
+    width: 86%;
+    border-right: 0.5px solid rgb(85, 94, 100);
+}
+
+.sidebar{
+    width: 14%;
+}
+.all-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    display: none;
+}
+
+.profile-info #option-dots{
+    display: none;
+}
+
+.home-bar{
+    width: 86%;
+}
+
+
+}
