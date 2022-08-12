@@ -202,7 +202,13 @@
 
 .home-bar{
     display: flex;
+    position: absolute;
+    z-index: 1;
     justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    opacity: 85%;
+    width: 41.8%;
 }
 
 .home-item{
@@ -210,6 +216,7 @@
     margin: 10px;
     font-size: 20px;
     font-weight: 700;
+    
 }
 
 .home-item:hover{
@@ -239,6 +246,11 @@
     font-weight: 400;
     background-color: transparent;
     outline: none;
+}
+
+.tweets-body{
+    position: relative;
+    top: 50px;
 }
 
 .permisions-icon{
@@ -294,6 +306,19 @@
     color: white;
 }
 
+.tweet-info #info{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-info #info-container{
+    display: flex;
+    align-items: center;
+}
+
+#tweet-text{
+    margin-left: 2px;
+}
 
 .tweet-info img{
     border-radius: 50%;
@@ -360,17 +385,14 @@
 .reply:hover{
     fill:rgb(29, 155, 240);
     color: rgb(29, 155, 240);
-    background: rgb(49, 76, 95);
+    /* background: rgb(49, 76, 95); */
     border-radius: 999px;
     cursor: pointer;
-    /* width: fit-content; */
 }
 
 .retweet:hover{
     fill: rgb(11, 248, 169);
-    background: rgb(38, 47, 53);
     cursor: pointer;
-    border-radius: 999px;
 }
 
 .tweet-bottom-bar  .like:hover{
@@ -403,6 +425,9 @@
     width: 35%;
     background: black;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .navbar{
@@ -427,12 +452,15 @@
     fill: rgb(85, 94, 100);
     margin-left: 15px;
 }
-
+.left-contents{
+    position: relative;
+    top: 75px;
+}
 .trends-section{
     margin-left: 30px;
     background: rgb(32, 35, 39);
     border-radius: 10px;
-    padding-top: 12px;
+    padding-top: 12px 0px 12px 0px ;
     width: 346px;
 }
 
@@ -457,6 +485,14 @@
 .trend-item:hover{
     cursor: pointer;
     background:rgb(38, 47, 53);
+    
+}
+
+.trend-item:last-child:hover{
+    cursor: pointer;
+    background:rgb(38, 47, 53);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .trend-item .topic{
     color:white;
@@ -483,7 +519,8 @@
     border-radius: 10px;
     margin-top: 15px;
     margin: 0px 0px 5px 30px;
-    padding: 10px;
+    padding: 10px 0px 5px 0px;
+    position: sticky;
   }
 
   .sugges-item{
@@ -504,6 +541,18 @@
     fill: rgb(177, 185, 190)
   }
 
+  .sugges-item:hover{
+    cursor: pointer;
+    background:rgb(38, 47, 53);
+    
+}
+
+.sugges-item:last-child:hover{
+    cursor: pointer;
+    background:rgb(38, 47, 53);
+    
+}
+
   .follow-btn{
     text-align: center;
     background: white;
@@ -518,7 +567,19 @@
   .follow-btn:hover{
     cursor: pointer;
   }
-  
+
+  .footer{
+    margin: 10px 0px 10px 30px;
+    padding-top: 10px ;
+  }
+  .footer ul{
+    columns: 3;
+    list-style: none;
+  }
+  .footer li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
 .main{
     display: flex;
     height: 100vh;
