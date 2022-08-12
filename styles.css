@@ -211,6 +211,10 @@
     width: 41.8%;
 }
 
+.item-mobile{
+    display: none;
+}
+
 .home-item{
     color: rgb(214, 217, 219); 
     margin: 10px;
