@@ -2,7 +2,8 @@
 @media (max-width:768px) and (min-width:300px){
 
 .left-bar{
-    display: none;
+    /* display: none; */
+    width: 2%;
 }
 
 .item, .tweet-button{
@@ -35,7 +36,7 @@
 
 
 .middle-bar{
-    width: 86%;
+    width: 84%;
     border-right: 0.5px solid rgb(85, 94, 100);
 }
 
