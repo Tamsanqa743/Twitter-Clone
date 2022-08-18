@@ -1,5 +1,5 @@
 /* Targeting mobile devices*/
-@media (max-width:768px) and (min-width:300px){
+@media (max-width:768px) and (min-width:480px){
 
 .left-bar{
     /* display: none; */
@@ -61,4 +61,23 @@
 }
 
 
+}
+
+
+@media (max-width: 480px) and (min-width:240px){
+    .sidebar{
+        display: none;
+    }  
+
+    .left-bar{
+        width: 2%;
+    }
+
+    .middle-bar{
+        width: 98%;
+    }
+
+    .home-bar{
+        width: 99%;
+    }
 }
