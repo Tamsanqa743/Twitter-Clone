@@ -166,6 +166,11 @@
     color: white;
 }
 
+.profile-pic{
+    border-radius: 9999px;
+    height: 40px;
+}
+
 .option-dots{
     font-size: 20px;
     margin-left: 25px;
@@ -250,6 +255,7 @@
     font-weight: 400;
     background-color: transparent;
     outline: none;
+    margin-left: 10px;
 }
 
 .tweets-body{
