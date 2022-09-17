@@ -242,6 +242,7 @@
 .stars-icon:hover{
     background: rgb(48, 50, 51);
     border-radius: 40%; 
+    width: 15px;
 }
 .post-tweet{
     display: flex;
@@ -281,10 +282,23 @@ cursor: pointer;
     margin-bottom: 10px;
 
 }
-.control-icons svg:hover{
+/* .control-icons:hover{
     cursor: pointer;
-}
+    background: rgb(23, 54, 75);
+    border-radius: 60%;
 
+} */
+
+.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover{
+    cursor: pointer;
+    background: rgb(23, 54, 75);
+    border-radius: 60%;
+    align-items: center;
+} 
+
+.i1, .i2, .i3, .i4, .i5, .i6{
+ display: inline-block;
+}
 .control-icons{
     display: flex;
     fill: rgb(29, 155, 240);
@@ -545,12 +559,16 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    height: 60px;
   }
-
+  
+  .title{
+    padding-top:15px;
+  }
   .sugges-item img{
     border-radius: 50%;
     margin-left: 10px;
-    height: 50px;
+    height: 40px;
   }
 
   .sugges-item svg{
