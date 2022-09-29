@@ -294,6 +294,7 @@ cursor: pointer;
     background: rgb(23, 54, 75);
     border-radius: 60%;
     align-items: center;
+    display: flex;
 } 
 
 .i1, .i2, .i3, .i4, .i5, .i6{
